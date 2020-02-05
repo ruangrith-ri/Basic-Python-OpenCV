@@ -38,23 +38,23 @@ x = ['A', 'B', 'C', 'DEFG']
 print(x[0])
 print(x[0] + x[3])
 
-#condition control
+# condition control
 
 if fanta > oishi:
     print("fanta")
 else:
     print("oishi")
 
-#Repettive Control
+# Repettive Control
 
 while a < 10:
     a = a+1
-    print("a : ",a)
+    print("a : ", a)
 
 x = "ABCD"
 
 for i in x:
     print(i)
 
-for i in range (5,10):
+for i in range(5, 10):
     print(i)
