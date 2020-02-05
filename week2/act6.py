@@ -13,6 +13,7 @@ while True:
     if not ret:
         print()
         break
+    
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     cv.imshow('frame', gray)
 
