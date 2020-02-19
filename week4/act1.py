@@ -9,3 +9,10 @@ img = cv2.imread(path)
 
 #find data type
 print(type(img))
+
+#show size
+print(img.shape[0:2])
+
+# Displaying the image
+cv2.imshow('image', img)
+cv2.waitKey()
