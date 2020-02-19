@@ -12,6 +12,7 @@ print(type(img))
 
 #show size
 print(img.shape[0:2])
+width, height = img.shape[0:2]
 
 # Displaying the image
 cv2.imshow('image', img)
