@@ -1,6 +1,5 @@
 # importing cv2
 import cv2
-import numpy as np
 
 # path
 path = r'C:\Users\admin\Desktop\MDT425\week2\export5-1.png'
