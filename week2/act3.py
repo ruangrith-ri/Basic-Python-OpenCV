@@ -9,6 +9,5 @@ path = r'C:\Users\admin\Desktop\MDT425\week2\geeksforgeeks.png'
 img = cv2.imread(path)
 
 plt.imshow(img, cmap='gray', interpolation='bicubic')
-plt.imshow(img, cmap='gray', interpolation='bicubic')
 plt.xticks([]), plt.yticks([])
 plt.show()
