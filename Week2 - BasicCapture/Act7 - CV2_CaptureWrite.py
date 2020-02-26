@@ -22,7 +22,7 @@ while True:
     if k == ord('q'):
         break
     elif k == ord('s'):
-        path1 = r'C:\Users\admin\Desktop\MDT425\week2\export5-1.png'
+        path1 = r'C:\Users\admin\Desktop\MDT425\Week2 - BasicCapture\export5-1.png'
         cv.imwrite(path1, frame)
 
 cap.release()

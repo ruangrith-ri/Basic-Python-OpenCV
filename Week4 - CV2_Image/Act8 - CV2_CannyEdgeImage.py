@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # path
-path = r'C:\Users\admin\Desktop\MDT425\week2\export5-1.png'
+path = r'C:\Users\admin\Desktop\MDT425\Week2 - BasicCapture\geeksforgeeks.png'
 
 # Using cv2.imread() method
 img = cv2.imread(path)

@@ -2,8 +2,8 @@ import numpy as np
 import cv2
 
 # path
-path = r'C:\Users\admin\Desktop\MDT425\week2\geeksforgeeks.png'
-path1 = r'C:\Users\admin\Desktop\MDT425\week2\export4-1.png'
+path = r'C:\Users\admin\Desktop\MDT425\Week2 - BasicCapture\geeksforgeeks.png'
+path1 = r'C:\Users\admin\Desktop\MDT425\Week2 - BasicCapture\export4-1.png'
 
 # Using cv2.imread() method
 img = cv2.imread(path, 0)
