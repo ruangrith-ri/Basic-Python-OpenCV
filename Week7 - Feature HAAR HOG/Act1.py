@@ -5,8 +5,8 @@ from matplotlib import pyplot as plt
 
 #PART FILE
 path1 = os.path.join(os.path.dirname(__file__), 'vdo\cat.mp4')
+path2 = os.path.join(os.path.dirname(__file__), 'vdo\cat-feature-export.mp4')
 
-path2 = os.path.join(os.path.dirname(__file__), 'vdo\cat-feature-export.avi')
 path_feature = os.path.join(os.path.dirname(__file__), 'haarcascades\haarcascade_frontalcatface.xml')
 
 capture = cv2.VideoCapture(path1)
@@ -40,4 +40,3 @@ while True:
 
 capture.release()
 video.release()
-
