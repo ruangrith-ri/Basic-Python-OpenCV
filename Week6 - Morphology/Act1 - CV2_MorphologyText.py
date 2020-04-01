@@ -1,8 +1,9 @@
-import numpy as np 
+import os
 import cv2
+import numpy as np
 
 #PART IMAGE
-path1 = r'C:\Users\Jeeno\source\repos\python-CV-basic\Week6 - Morphology\img\input.PNG'
+path1 = os.path.join(os.path.dirname(__file__), 'img\input.PNG')
 
 #
 img = cv2.imread(path1,0)
