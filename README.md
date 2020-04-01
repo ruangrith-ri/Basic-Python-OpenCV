@@ -1,4 +1,4 @@
-﻿# MDT441 Python 
+﻿# MDT441 Python OPENCV
 
 ## Software For Instrall
 
